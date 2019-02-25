@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "YuGothic";
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.clear {
+  clear: both;
+}
+
+/* header */
+.header-wrapper {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  height: 80px;
+  margin-top: 8px;
+}
+
+.logo-area {
+  float: left;
+}
+
+.contact-form-link {
+  float: right;
+}
+
+.logo-area img {
+  width: 142px;
+  margin-right: 10px;
+}
+
+.logo-area a {
+  float: left;
+}
+
+.logo-area h1 {
+  width: 300px;
+  float: left;
+  position: relative;
+  bottom: -8px;
+}
+
+.bg-green {
+  background-color: #01d1b4;
+  color: #ffffff;
+  border-radius: 4px;
+  line-height: 2px;
+  padding: 5px;
+}
+
+.contact-form-link {
+  width: 240px;
+  text-align: center;
+  margin: 16px;
+  height: 48px;
+}
+
+.btn-message {
+  width: 100%;
+  display: block;
+  background-color: #01d1b4;
+  color: white;
+  line-height: 48px;
+  border-radius: 4px;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  height: 52px;
+}
+
+.header-nav li {
+  display: block;
+  width: 50%;
+  text-align: center;
+  height: 49px;
+}
+
+.header-nav li a {
+  display: block;
+  width: 100%;
+  border-left: solid 1px #000000;
+  margin: 1rem 0;
+  font-size: 17px;
+}
+
+.header-nav li:last-child a{
+  border-right: solid 1px #000000; 
+}
+
+/* top */
+.top-wrapper{
+  background-image: url('http://hawk-eye.co.jp/wp-content/uploads/2018/10/people-2561053_1920-1.jpg');
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  text-align: center;
+}
+
+.top-wrapper h2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20vh;
+  margin:auto;
+  width: 15rem;
+  line-height: 0.9;
+  font-size: 3rem;
+  background-color:#0000004f;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.news-wrapper{
+  background-color: #EEEEEE;
+}
+
+.news-wrapper ul{
+  display: table;
+}
+
+.news-wrapper ul li{
+  height: 48px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.news-wrapper ul li span{
+  background-color: #424242;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin-right: 15px;
+}
+
+/* trouble */
+.trouble-wrapper{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.trouble-wrapper h2{
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 500px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #BDBDBD;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+}
+
+.trouble-contents{
+  margin-top: 2.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.trouble-contents p{
+  float: left;
+  width: 47%;
+  background-color: #F5F5F5;
+  padding: 1.5rem;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+
+.fa-check-square{
+  margin-right: 1rem;
+  color: #00E676;
+  font-size: 1.7rem;
+}
